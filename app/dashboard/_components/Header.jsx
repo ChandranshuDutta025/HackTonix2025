@@ -18,9 +18,9 @@ return (
         <ul className='flex gap-6'>
             <li className={`hover:text-purple-500 hover:font-bold transition cursor-pointer ${path === '/dashboard' && 'text-primary font-bold' }`}
             >Dashboard</li>
-            <li className={`hover:text-purple-500 hover:font-bold transition cursor-pointer ${path === '/dashboard' && 'text-primary font-bold' }`}>Question</li>
-            <li className={`hover:text-purple-500 hover:font-bold transition cursor-pointer ${path === '/dashboard' && 'text-primary font-bold' }`}>Upgrade</li>
-            <li className={`hover:text-purple-500 hover:font-bold transition cursor-pointer ${path === '/dashboard' && 'text-primary font-bold' }`}>How it Works</li>
+            <li className={`hover:text-purple-500 hover:font-bold transition cursor-pointer ${path === '/dashboard' && 'text-primary font-bold' }`}>Toppers Mock</li>
+            <li className={`hover:text-purple-500 hover:font-bold transition cursor-pointer ${path === '/dashboard' && 'text-primary font-bold' }`}>Study For Interview </li>
+            <li className={`hover:text-purple-500 hover:font-bold transition cursor-pointer ${path === '/dashboard' && 'text-primary font-bold' }`}>Contact Us</li>
         </ul>  
         <UserButton/>
     </div>
